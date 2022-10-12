@@ -1,5 +1,5 @@
 .container{
-  background: linear-gradient(to right bottom,#000 , #c89666) ;
+  background: linear-gradient(to right bottom,#000 , #001) ;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .app-wrapper{
-  background-color: lightcoral;
+  background-color: aliceblue;
   min-width: 300px;
   min-height: 300px;
   padding: 30px;
@@ -15,13 +15,32 @@
   border-radius: 10px;
   box-shadow: 3px 6px 40px #000;
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.register{
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #04AA6D;
   color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 .form{
-  padding: auto;
-  margin: 10px;
+  padding: 16px;
+  color: dark;
 }
 .button{
   margin: auto;
