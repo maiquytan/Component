@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 export default function Dangki() {
-  const [userName, setUserName] = useState ();
-  const [userPass, setUserPass] = useState();
-  const [userConfirm, setUserConfirm] = useState();
+  const [userName, setUserName] = useState ('');
+  const [userPass, setUserPass] = useState('');
+  const [userConfirm, setUserConfirm] = useState('');
 
   return (
     <div className='register'> 
